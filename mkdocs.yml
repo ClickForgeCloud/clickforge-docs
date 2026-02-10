@@ -10,13 +10,13 @@ nav:
   - Concepts:
       - Organizations: concepts/organizations.md
       - Endpoints: concepts/endpoints.md
-  - Features:
+  - Observability:
       - Table Monitor: features/table-monitor.md
-      - Growth: features/growth.md
-      - Parts Visualizer: features/parts-visualizer.md
       - Table Lineage: features/table-lineage.md
+      - Parts Visualizer: features/parts-visualizer.md
       - Query Time: features/query-time.md
       - Filter Alignment: features/filter-alignment.md
+  - Experiments:
       - Index Analysis: features/index-analysis.md
       - Benchmark: features/benchmark.md
   - Reference:
@@ -30,8 +30,8 @@ theme:
   favicon: assets/favicon.ico
   palette:
     - scheme: slate
-      primary: teal
-      accent: amber
+      primary: yellow
+      accent: yellow
   features:
     - navigation.instant
     - navigation.tracking
@@ -41,3 +41,5 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+extra_css:
+  - stylesheets/extra.css

@@ -16,14 +16,18 @@ ClickForge connects to your ClickHouse cluster and reads from system tables like
 
 ## Main areas in the UI
 
-- **Endpoints**: Register and manage ClickHouse connections
-- **Table Monitor**: Storage, table stats, and growth trends
-- **Parts Visualizer**: Part-level storage and compression exploration
-- **Query Time**: Query performance trends and pattern heatmaps
-- **Filter Alignment**: How query filters match ORDER BY and skip indexes
-- **Index Analysis**: Compare ORDER BY and skip index variants using sampled data
-- **Benchmark**: Compare two queries or run parameterized load tests
-- **Table Lineage**: Upstream and downstream dependencies between tables
+The sidebar groups tools into **Observability** and **Experiments**, matching the app navigation.
+
+**Observability**
+Table Monitor: Storage, table stats, and growth trends
+Table Lineage: Upstream and downstream dependencies between tables
+Parts Visualizer: Part-level storage and compression exploration
+Query Time: Query performance trends and pattern heatmaps
+Filter Alignment: How query filters match ORDER BY and skip indexes
+
+**Experiments**
+Index Analysis: Compare ORDER BY and skip index variants using sampled data
+Benchmark: Compare two queries or run parameterized load tests
 
 ## Start here
 

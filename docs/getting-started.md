@@ -40,7 +40,7 @@ Select the endpoint name to open its dashboard and start exploring features from
 
 ## 5. Run your first analysis
 
-Start with **Table Monitor** to understand storage and growth, then use **Query Time** and **Filter Alignment** to prioritize the most impactful queries.
+Start with **Table Monitor** to understand storage and growth, then use **Query Time** and **Filter Alignment** to prioritize the most impactful queries. The sidebar groups tools into **Observability** and **Experiments**, which match the UI navigation.
 
 **Related**
 Endpoint details and fields: [Endpoints](concepts/endpoints.md)

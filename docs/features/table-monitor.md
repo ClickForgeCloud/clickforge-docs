@@ -1,6 +1,6 @@
 # Table Monitor
 
-Table Monitor gives you a fast overview of table size, compression, and growth trends for the selected endpoint.
+Table Monitor gives you a fast overview of table size, compression, and growth trends for the selected endpoint. Growth charts live inside this page in the current UI.
 
 ## Screenshot
 
@@ -30,6 +30,5 @@ The **Table Statistics** section updates immediately after you select databases.
 If `system.part_log` is unavailable or empty, growth charts will show no data.
 
 **Related**
-See Growth for longer-term trends: [Growth](growth.md)
 Explore storage layout in Parts Visualizer: [Parts Visualizer](parts-visualizer.md)
 Investigate slow queries next: [Query Time](query-time.md)

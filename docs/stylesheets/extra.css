@@ -1,0 +1,71 @@
+:root {
+  --cf-yellow: #f4c400;
+  --cf-yellow-strong: #ffd400;
+  --cf-black: #0f1113;
+  --cf-black-soft: #15181b;
+  --cf-border: #2a2f35;
+}
+
+/* Base background + text */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: var(--cf-black);
+  --md-default-bg-color--light: var(--cf-black-soft);
+  --md-default-bg-color--lighter: #1b2025;
+  --md-default-fg-color: #e8eaed;
+  --md-default-fg-color--light: #c7ccd1;
+  --md-default-fg-color--lighter: #9aa2aa;
+  --md-typeset-a-color: var(--cf-yellow);
+}
+
+/* Header */
+.md-header {
+  background-color: var(--cf-black);
+  border-bottom: 1px solid var(--cf-border);
+}
+
+.md-header__title {
+  color: var(--cf-yellow);
+}
+
+/* Sidebar */
+.md-nav__title,
+.md-nav__item .md-nav__link {
+  color: #d6d9dd;
+}
+
+.md-nav__item .md-nav__link--active,
+.md-nav__item .md-nav__link:focus,
+.md-nav__item .md-nav__link:hover {
+  color: var(--cf-yellow-strong);
+}
+
+/* Buttons */
+.md-typeset .md-button {
+  border-color: var(--cf-yellow);
+  color: var(--cf-yellow);
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--cf-yellow);
+  border-color: var(--cf-yellow);
+  color: #141414;
+}
+
+/* Code blocks */
+.md-typeset code {
+  color: var(--cf-yellow-strong);
+}
+
+.md-typeset pre > code {
+  color: #e8eaed;
+}
+
+/* Tables */
+.md-typeset table:not([class]) th {
+  background-color: #1c2126;
+}
+
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  border-color: var(--cf-border);
+}
