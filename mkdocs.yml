@@ -1,8 +1,8 @@
 site_name: ClickForge Docs
 site_description: ClickForge user documentation
-site_url: https://wattache.github.io/clickforge-docs/
-repo_name: clickforge
-repo_url:
+site_url: https://clickforgecloud.github.io/clickforge-docs/
+repo_name: clickforge-docs
+repo_url: https://github.com/ClickForgeCloud/clickforge-docs
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
