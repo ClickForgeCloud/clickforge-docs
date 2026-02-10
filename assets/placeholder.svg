@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#202428" />
+      <stop offset="1" stop-color="#15181b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <rect x="40" y="40" width="1120" height="595" rx="18" fill="#0f1113" stroke="#2a2f35" stroke-width="2" />
+  <rect x="80" y="90" width="480" height="28" rx="6" fill="#1e2328" />
+  <rect x="80" y="140" width="1040" height="420" rx="12" fill="#171b1f" stroke="#2a2f35" stroke-width="1" />
+  <text x="600" y="350" fill="#8f98a1" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">
+    Placeholder Screenshot
+  </text>
+  <text x="600" y="388" fill="#6f7780" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">
+    Replace with a real UI capture
+  </text>
+</svg>
