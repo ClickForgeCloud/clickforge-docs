@@ -1,0 +1,43 @@
+site_name: ClickForge Docs
+site_description: ClickForge user documentation
+site_url: https://wattache.github.io/clickforge-docs/
+repo_name: clickforge
+repo_url:
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Quick Wins: quick-wins.md
+  - Concepts:
+      - Organizations: concepts/organizations.md
+      - Endpoints: concepts/endpoints.md
+  - Features:
+      - Table Monitor: features/table-monitor.md
+      - Growth: features/growth.md
+      - Parts Visualizer: features/parts-visualizer.md
+      - Table Lineage: features/table-lineage.md
+      - Query Time: features/query-time.md
+      - Filter Alignment: features/filter-alignment.md
+      - Index Analysis: features/index-analysis.md
+      - Benchmark: features/benchmark.md
+  - Reference:
+      - Saved Configurations: reference/resultstore.md
+      - Glossary: glossary.md
+  - Troubleshooting: troubleshooting.md
+
+theme:
+  name: material
+  logo: assets/clickforge-mini.png
+  favicon: assets/favicon.ico
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: amber
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - toc.integrate
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
