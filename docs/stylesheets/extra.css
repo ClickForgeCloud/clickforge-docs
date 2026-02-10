@@ -76,6 +76,17 @@
   color: var(--cf-yellow-strong);
 }
 
+/* Primary nav section headings (Home, Getting Started, etc.) */
+.md-nav--primary .md-nav__item--section > .md-nav__link {
+  color: var(--cf-yellow-strong);
+  font-weight: 700;
+}
+
+.md-nav--primary .md-nav__item--section > .md-nav__link:hover,
+.md-nav--primary .md-nav__item--section > .md-nav__link:focus {
+  color: var(--cf-yellow-strong);
+}
+
 /* Buttons */
 .md-typeset .md-button {
   border-color: var(--cf-yellow);
